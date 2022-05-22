@@ -1,0 +1,549 @@
+-- This file was generated using Luraph Obfuscator v13.4.6
+
+--return(function(MQ,gQ,jQ,jY,EQ,UQ,bQ,VQ,hQ,NQ,pQ,HQ,wQ,WQ,zQ,qQ,uQ,AY,mQ,SY,BQ,ZQ,TQ,OQ,iQ,lQ,LQ,XQ,vQ,rQ,RQ,oQ,xY,GQ,IQ,GY,kQ,cQ,tQ,FQ,DQ,JY,eQ,PQ,nY,SQ,CY,dQ,sQ,yQ,KQ,fQ,kY,aQ,YY,rY,QQ,...)local p,N,X=jQ,GQ,SQ;local k=rQ;local G=(FQ);local v,e=aQ,(vQ[eQ]);local S,r=pQ[NQ],(pQ[XQ]);local F,a=pQ[RQ],zQ;local J,A,Y,j=oQ,fQ,cQ,UQ;local R,z=uQ,(ZQ or wQ);local YQ=(0);local c,U=VQ,(VQ);repeat if YQ<=0 then c=(DQ and DQ()or lQ);YQ=1;else if YQ~=1 then do U={};end;break;else YQ=2;end;end;until(qQ);local m=1;local u=(VQ);do YQ=1;end;local Z,w,D,i=VQ,VQ,VQ,VQ;while YQ<=4 do if not(YQ<=1)then if not(YQ<=2)then if YQ==3 then YQ=0;else w=KQ;YQ=3;end;else i=function()local vC=r(w,m,m);m=m+1;return vC;end;YQ=5;end;else if YQ~=0 then YQ=4;else do w=a(S(w,5),TQ,function(tk)if r(tk,2)~=72 then local xt,bt=0,VQ;while xt<=1 do if xt==0 then bt=k(J(tk,16));xt=1;else if not(D)then return bt;else local d2=F(bt,D);D=VQ;return d2;end;xt=2;end;end;else D=J(S(tk,1,1));return dQ;end;end);end;YQ=2;end;end;end;do YQ=4;end;local V,l,q,T,d=VQ,VQ,VQ,VQ,(VQ);while YQ<=4 do if not(YQ<=1)then if not(YQ<=2)then do if YQ~=3 then V=function()local B4,V4,R4,c4=VQ,VQ,VQ,(VQ);local M4=(1);do repeat if M4==0 then m=m+4;M4=2;else B4,V4,R4,c4=r(w,m,m+3);M4=0;end;until M4==2;end;return c4*bQ+R4*65536+V4*256+B4;end;YQ=1;else d=q-1;YQ=5;end;end;else T=2^52;YQ=3;end;else if YQ~=0 then l=2147483648;YQ=0;else q=4294967296;YQ=2;end;end;end;YQ=0;local K=(VQ);do while YQ~=2 do do if YQ~=0 then do local Kf=VQ;for VJ=0,1 do if VJ~=0 then for DJ=1,31 do K[DJ]=Kf;Kf=Kf*2;end;else do Kf=2;end;end;end;end;YQ=2;else K={[0]=1};do YQ=1;end;end;end;end;end;do YQ=0;end;local b,L,h,O=VQ,VQ,VQ,(VQ);do while YQ<4 do if not(YQ<=1)then if YQ~=2 then O={[0]={[0]=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},{[0]=1,0,3,2,5,4,7,6,9,8,11,10,13,12,15,14},{[0]=2,3,0,1,6,7,4,5,10,11,8,9,14,15,12,13},{[0]=3,2,1,0,7,6,5,4,11,10,9,8,15,14,13,12},{[0]=4,5,6,7,0,1,2,3,12,13,14,15,8,9,10,11},{[0]=5,4,7,6,1,0,3,2,13,12,15,14,9,8,11,10},{[0]=6,7,4,5,2,3,0,1,14,15,12,13,10,11,8,9},{[0]=7,6,5,4,3,2,1,0,15,14,13,12,11,10,9,8},{[0]=8,9,10,11,12,13,14,15,0,1,2,3,4,5,6,7},{[0]=9,8,11,10,13,12,15,14,1,0,3,2,5,4,7,6},{[0]=10,11,8,9,14,15,12,13,2,3,0,1,6,7,4,5},{[0]=11,10,9,8,15,14,13,12,3,2,1,0,7,6,5,4},{[0]=12,13,14,15,8,9,10,11,4,5,6,7,0,1,2,3},{[0]=13,12,15,14,9,8,11,10,5,4,7,6,1,0,3,2},{[0]=14,15,12,13,10,11,8,9,6,7,4,5,2,3,0,1},{[0]=15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0}};YQ=4;else L=function()local UN,rN=VQ,VQ;for dk=0,2 do if not(dk<=0)then if dk~=1 then return rN*q+UN;else if rN>=l then rN=rN-q;end;end;else UN,rN=V(),V();end;end;end;do YQ=1;end;end;else if YQ~=0 then h=function()local fj=V();local Jj=(V());local Cj,nj,ej,Dj=VQ,VQ,VQ,VQ;for x9=0,5 do if not(x9<=2)then do if not(x9<=3)then if x9~=4 then if nj==0 then if ej~=0 then nj=1;do Dj=0;end;else do return Cj*0;end;end;elseif nj~=2047 then else if ej~=0 then return Cj*(1/0);else return Cj*(0/0);end;end;else Dj=1;end;else ej=b(Jj,0,20)*q+fj;end;end;else if not(x9<=0)then if x9~=1 then nj=b(Jj,20,11);else Cj=(-1)^b(Jj,31,1);end;else if fj==0 and Jj==0 then return 0;end;end;end;end;return Cj*(2^(nj-1023))*(ej/T+Dj);end;YQ=3;else b=function(GE,mE,qE)local FE,PE=0,VQ;do while(LQ)do if not(FE<=0)then do if FE~=1 then PE=PE-PE%1;FE=1;else return PE;end;end;else do PE=(GE/K[mE])%K[qE];end;FE=2;end;end;end;end;YQ=2;end;end;end;end;local y=((hQ or OQ));local I=y and y[yQ]or function(bu,Wu)local qu,xu,tu=2,VQ,(VQ);while(LQ)do do if not(qu<=2)then if not(qu<=3)then if qu~=4 then Wu=Wu%q;qu=4;else xu=1;do qu=3;end;end;else tu=0;do qu=1;end;end;else if not(qu<=0)then if qu~=1 then do bu=bu%q;end;qu=5;else while bu>0 and Wu>0 do local FA,oA=bu%16,(3);local jA=(VQ);while(LQ)do do if not(oA<=1)then if not(oA<=2)then do if oA==3 then do jA=Wu%16;end;oA=1;else bu=(bu-FA)/16;oA=0;end;end;else xu=xu*16;break;end;else if oA~=0 then tu=tu+O[FA][jA]*xu;oA=4;else Wu=(Wu-jA)/16;do oA=2;end;end;end;end;end;end;do qu=0;end;end;else return tu+bu*xu+Wu*xu;end;end;end;end;end;local Q=y and y[IQ]or function(WR,MR)local xR=(0);repeat do if not(xR<=0)then do if xR~=1 then return((WR+MR)-I(WR,MR))/2;else do MR=MR%q;end;xR=2;end;end;else do WR=WR%q;end;xR=1;end;end;until(qQ);end;local s=(y and y[QQ]or function(BP,RP)for Yu=0,2 do if not(Yu<=0)then if Yu~=1 then return d-Q(d-BP,d-RP);else do RP=RP%q;end;end;else BP=BP%q;end;end;end);local H,g,W=y and y[sQ]or function(aA)return d-(aA%q);end,y and y[HQ],(y and y[gQ]);do YQ=0;end;local M,P=VQ,VQ;do while(LQ)do if not(YQ<=1)then do if YQ~=2 then W=W or function(kc,xc)local wc=1;while wc~=2 do if wc~=0 then if not(xc>=32)then else return 0;end;wc=0;else if not(xc<0)then else do return g(kc,-xc);end;end;do wc=2;end;end;end;local vc=(kc%q/K[xc]);return vc-vc%1;end;YQ=1;else P=function(xV)local vV,qV=VQ,VQ;for hL=0,2 do if not(hL<=0)then do if hL~=1 then do for S7=1,vV,7997 do local D7,b7=S7+7997-1,(VQ);for T7=0,2 do if T7<=0 then if not(D7>vV)then else D7=vV;end;else do if T7~=1 then for RF=1,#b7 do for RV=0,1 do if RV~=0 then u=(xV*u+149)%256;else(b7)[RF]=I(b7[RF],u);end;end;end;else do b7={r(w,m+S7-1,m+D7-1)};end;end;end;end;end;qV=qV..k(z(b7));end;end;else qV=dQ;end;end;else vV=V();end;end;m=m+vV;return qV;end;break;end;end;else do if YQ~=0 then do M=function(tc)local Tc=(0);local cc,Mc=VQ,(VQ);do while(LQ)do if Tc~=0 then Mc=I(cc[1],Z);break;else cc={r(w,m,m+3)};Tc=1;end;end;end;local Yc=I(cc[2],Z);local pc=(I(cc[3],Z));local Jc=(I(cc[4],Z));Tc=0;do repeat if not(Tc<=0)then if Tc~=1 then do m=m+4;end;Tc=1;else return Jc*16777216+pc*65536+Yc*256+Mc;end;else Z=(WQ*Z+tc)%256;Tc=2;end;until(qQ);end;end;end;YQ=2;else g=g or function(eZ,sZ)local yZ=1;while(LQ)do if not(yZ<=0)then do if yZ~=1 then return(eZ*K[sZ])%q;else if not(sZ>=32)then else return 0;end;yZ=0;end;end;else if not(sZ<0)then else do return W(eZ,-sZ);end;end;yZ=2;end;end;end;YQ=3;end;end;end;end;end;YQ=0;local E,B,t,xQ,CQ,nQ,JQ,AQ=VQ,VQ,VQ,VQ,VQ,VQ,VQ,VQ;repeat if not(YQ<=6)then if not(YQ<=10)then do if not(YQ<=12)then do if YQ~=13 then B=function(...)do return mQ(kY,...),{...};end;end;YQ=7;else xQ=1;YQ=5;end;end;else if YQ~=11 then do for K8=1,i()do local Z8={};local v8=(1);while v8<2 do do if v8~=0 then do E[K8-1]=Z8;end;v8=0;else for ID=1,i()do local vD,sD=VQ,(VQ);local GD=1;do repeat if GD<=1 then if GD~=0 then do vD=i();end;GD=0;else sD=(ID-1)*2;GD=2;end;else do if GD~=2 then(Z8)[sD+1]=b(vD,4,4);GD=4;else Z8[sD]=b(vD,0,4);GD=3;end;end;end;until GD>3;end;end;v8=2;end;end;end;end;end;YQ=14;else return nQ(VQ,c,AQ)(...);end;end;end;else if not(YQ<=8)then do if YQ~=9 then function JQ()local Mk,Ak,bk,Ck,Xk={},3,VQ,VQ,VQ;local mk={VQ,VQ,{},{},{},VQ,VQ,VQ,VQ};while Ak~=6 do if not(Ak<=2)then do if not(Ak<=3)then if Ak~=4 then Xk=V()-133777;do Ak=6;end;else(mk)[13]=i();Ak=0;end;else bk={};Ak=2;end;end;else if not(Ak<=0)then do if Ak==1 then(mk)[17]=i();Ak=4;else Ck=1;Ak=1;end;end;else mk[18]=V();Ak=5;end;end;end;local vk=(i());local Qk=(i()~=0);for Yh=1,Xk do local Nh=VQ;local Vh=i();local Th=0;while Th<=3 do if not(Th<=1)then if Th~=2 then if Vh==115 then do Nh=S(P(vk),V());end;elseif Vh==51 then Nh=V();elseif Vh==229 then Nh=h();elseif Vh==95 then do Nh=L();end;elseif Vh==237 then Nh=S(P(vk),i());elseif Vh==251 then Nh=LQ;elseif Vh==105 then Nh=S(P(vk),h()+V());elseif Vh==30 then do Nh=qQ;end;elseif Vh==121 then do Nh=S(P(vk),h()+V());end;elseif Vh==50 then Nh=V();elseif Vh~=0 then else Nh=S(P(vk),6);end;Th=4;else do if Vh==115 then Nh=S(P(vk),V());elseif Vh==51 then Nh=V();elseif Vh==229 then do Nh=h();end;elseif Vh==95 then Nh=L();elseif Vh==237 then Nh=S(P(vk),i());elseif Vh==251 then Nh=LQ;elseif Vh==105 then do Nh=S(P(vk),h()+V());end;elseif Vh==30 then Nh=qQ;elseif Vh==121 then Nh=S(P(vk),h()+V());elseif Vh==50 then do Nh=V();end;elseif Vh==0 then do Nh=S(P(vk),6);end;end;end;Th=1;end;else if Th~=0 then if Vh==115 then Nh=S(P(vk),V());elseif Vh==51 then Nh=V();elseif Vh==229 then Nh=h();elseif Vh==95 then Nh=L();elseif Vh==237 then Nh=S(P(vk),i());elseif Vh==251 then Nh=LQ;elseif Vh==105 then Nh=S(P(vk),h()+V());elseif Vh==30 then do Nh=qQ;end;elseif Vh==121 then Nh=S(P(vk),h()+V());elseif Vh==50 then Nh=V();elseif Vh~=0 then else Nh=S(P(vk),6);end;do Th=1;end;else if Vh==115 then Nh=S(P(vk),V());elseif Vh==51 then Nh=V();elseif Vh==229 then Nh=h();elseif Vh==95 then Nh=L();elseif Vh==237 then Nh=S(P(vk),i());elseif Vh==251 then Nh=LQ;elseif Vh==105 then Nh=S(P(vk),h()+V());elseif Vh==30 then Nh=qQ;elseif Vh==121 then do Nh=S(P(vk),h()+V());end;elseif Vh==50 then do Nh=V();end;elseif Vh~=0 then else Nh=S(P(vk),6);end;Th=4;end;end;end;do Mk[Yh-1]=Ck;end;local dh=({Nh,{}});Th=0;repeat if Th~=0 then Ck=Ck+1;Th=2;else bk[Ck]=dh;do Th=1;end;end;until Th>=2;if Qk then(t)[xQ]=dh;xQ=xQ+1;end;end;Ak=2;local uk,dk=VQ,(VQ);while Ak<4 do if not(Ak<=1)then if Ak==2 then uk=V()-133702;Ak=3;else do dk=i();end;Ak=0;end;else if Ak~=0 then(mk)[7]=i();Ak=4;else for ra=1,uk do local Ca={VQ,VQ,VQ,VQ,VQ,VQ,VQ,VQ,VQ,VQ};local na=M(dk);local la=(8);while la<12 do if la<=5 then if not(la<=2)then if not(la<=3)then if la==4 then(Ca)[12]=b(na,16,13);do la=12;end;else Ca[12]=b(na,16,13);do la=9;end;end;else do Ca[10]=b(na,6,8);end;la=2;end;else if la<=0 then Ca[18]=b(na,29,24);do la=10;end;else if la==1 then do Ca[10]=b(na,6,8);end;do la=7;end;else(Ca)[7]=b(na,14,18);la=4;end;end;end;else do if not(la<=8)then if not(la<=9)then if la~=10 then(Ca)[5]=b(na,23,9);la=1;else(Ca)[3]=i();do la=9;end;end;else(Ca)[4]=b(na,14,9);la=11;end;else if la<=6 then(Ca)[7]=b(na,14,18);la=1;else if la==7 then Ca[7]=b(na,14,18);la=12;else Ca[12]=b(na,16,13);la=0;end;end;end;end;end;end;mk[3][ra]=Ca;end;do Ak=1;end;end;end;end;Ak=1;local Nk=(VQ);do while Ak~=4 do if Ak<=1 then if Ak~=0 then mk[9]=i();Ak=0;else Nk=V();Ak=3;end;else if Ak~=2 then do for Yl=1,Nk do local el,kl,yl,Gl=0,VQ,VQ,VQ;do repeat if not(el<=1)then if el~=2 then for LG=kl,yl do(mk[4])[LG]=Gl;end;el=4;else Gl=V();el=3;end;else do if el~=0 then yl=V();el=2;else kl=V();el=1;end;end;end;until el==4;end;end;end;Ak=2;else mk[1]=i();Ak=4;end;end;end;end;local Lk=E[mk[1]];do for l1=1,uk do local I1=(5);local Z1,F1=VQ,(VQ);local t1=mk[3][l1];while I1<=5 do if I1<=2 then if not(I1<=0)then if I1~=1 then do if Z1~=13 then else t1[7]=l1+(t1[7]-131071)+1;end;end;I1=1;else if Z1~=6 then else local Kx,Sx,Lx=2,VQ,VQ;repeat if Kx<=0 then if not(Lx)then else local nE,RE=1,(VQ);while nE<2 do if nE~=0 then do t1[1]=Lx[1];end;nE=0;else RE=Lx[2];nE=2;end;end;(RE)[#RE+1]={t1,1};end;break;else if Kx~=1 then Sx=Mk[t1[7]];Kx=1;else Lx=bk[Sx];Kx=0;end;end;until(qQ);end;do I1=6;end;end;else if not((Z1==4 or F1)and t1[4]>255)then else do t1[6]=LQ;end;local AN,bN=Mk[t1[4]-256],(1);local hN=VQ;while(LQ)do if bN~=0 then hN=bk[AN];bN=0;else do if not(hN)then else local oy,ly=2,VQ;while oy<=2 do if not(oy<=0)then do if oy~=1 then(t1)[8]=hN[1];do oy=0;end;else ly[#ly+1]={t1,8};do oy=3;end;end;end;else ly=hN[2];do oy=1;end;end;end;end;end;do break;end;end;end;end;do I1=3;end;end;else if I1<=3 then if not((Z1==9 or F1)and t1[5]>255)then else do t1[2]=LQ;end;local m5=(Mk[t1[5]-256]);local r5=bk[m5];if not(r5)then else local r0=1;local e0=VQ;while r0<3 do do if r0<=0 then e0=r5[2];r0=2;else if r0~=1 then e0[#e0+1]={t1,9};do r0=3;end;else t1[9]=r5[1];do r0=0;end;end;end;end;end;end;end;I1=2;else if I1~=4 then do Z1=Lk[t1[3]];end;I1=4;else do F1=Z1==3;end;do I1=0;end;end;end;end;end;end;end;local Gk=V();for Gh=1,Gk do do mk[5][Gh-1]=JQ();end;end;Ak=4;while Ak<=5 do if Ak<=2 then if not(Ak<=0)then if Ak~=1 then(mk)[18]=V();do Ak=6;end;else(mk)[12]=V();Ak=5;end;else mk[6]=i();Ak=2;end;else if not(Ak<=3)then if Ak==4 then do mk[10]=V();end;Ak=1;else(mk)[16]=V();Ak=3;end;else(mk)[18]=V();Ak=0;end;end;end;Ak=1;local fk=(VQ);while Ak<5 do if not(Ak<=1)then if Ak<=2 then fk=i();do Ak=3;end;else do if Ak~=3 then(mk)[2]=b(fk,2,1)~=0;do Ak=0;end;else(mk)[8]=b(fk,1,1)~=0;Ak=4;end;end;end;else if Ak~=0 then(mk)[16]=i();Ak=2;else mk[19]=V();Ak=5;end;end;end;do Ak=2;end;do while(LQ)do if Ak<=0 then return mk;else do if Ak~=1 then do(mk)[14]=i();end;do Ak=1;end;else do(mk)[18]=V();end;Ak=0;end;end;end;end;end;end;YQ=9;else do AQ=JQ();end;do YQ=2;end;end;end;else if YQ==7 then t={};do YQ=13;end;else t=VQ;YQ=11;end;end;end;else if not(YQ<=2)then do if not(YQ<=4)then if YQ~=5 then E={};YQ=12;else CQ={};do YQ=1;end;end;else if YQ~=3 then Z=i();YQ=6;else function nQ(sz,Az,Jz)local tz,fz,Gz=Jz[8],Jz[2],Jz[1];local Zz,hz,zz,dz,Kz=Jz[3],Jz[5],Jz[9],Jz[6],(Jz[4]);local Wz=p({},{[MQ]=PQ});local uz=(VQ);do uz=function(...)local XG={};local JG,kG=0,(1);local yG=(DQ and DQ()or lQ);local ZG=((yG==c and Az or yG));local eG,oG=B(...);eG=eG-1;do for vd=0,eG do do if not(zz>vd)then do break;end;else XG[vd]=oG[vd+1];end;end;end;end;CQ[2]=Jz;do CQ[3]=XG;end;if not tz then oG=VQ;elseif not(fz)then else XG[zz]={n=eG>=zz and eG-zz+1 or 0,z(oG,zz+1,eG+1)};end;do if ZG==yG then else if not(iQ)then lQ=ZG;else iQ(uz,ZG);end;end;end;local zG,KG,TG,lG=A(function()while true do local dY=Zz[kG];local uY=dY[3];kG=kG+1;if not(uY>=56)then if not(uY<28)then do if not(uY>=42)then if not(uY>=35)then if not(uY>=31)then if not(uY>=29)then local lU=(XG[dY[5]]);if not(not lU)then XG[dY[10]]=lU;else kG=kG+1;end;else do if uY==30 then local AV,sV=dY[5],dY[4];local BV=dY[10];if AV==0 then else do JG=BV+AV-1;end;end;local PV,EV=VQ,(VQ);do if AV==1 then PV,EV=B(XG[BV]());else PV,EV=B(XG[BV](z(XG,BV+1,JG)));end;end;if sV==1 then JG=BV-1;else if sV==0 then PV=PV+BV-1;JG=PV;else PV=BV+sV-2;JG=PV+1;end;local nA=0;for i1=BV,PV do nA=nA+1;XG[i1]=EV[nA];end;end;else do XG[dY[10]]=dY[9]~=XG[dY[4]];end;end;end;end;else do if not(uY>=33)then do if uY~=32 then if dY[4]~=252 then local wh=(dY[10]);for gY=wh,wh+(dY[5]-1)do(XG)[gY]=oG[zz+(gY-wh)+1];end;else do kG=kG-1;end;(Zz)[kG]={[10]=(dY[10]-14)%256,[3]=8,[5]=(dY[5]-14)%nY};end;else do XG[dY[10]]=dY[9]/dY[8];end;end;end;else if uY~=34 then if XG[dY[5]]==XG[dY[4]]then else do kG=kG+1;end;end;else do XG[dY[10]]=I(XG[dY[5]],dY[8]);end;end;end;end;end;else if not(uY<38)then if not(uY<40)then if uY~=41 then do repeat local r8,i8,S8=Wz,XG,(dY[10]);if not(#r8>0)then else local gM=({});for gI,hI in R,r8 do for Au,Fu in R,hI do if Fu[1]==i8 and Fu[2]>=S8 then local cr=(Fu[2]);if not(not gM[cr])then else(gM)[cr]={i8[cr]};end;(Fu)[1]=gM[cr];Fu[2]=1;end;end;end;end;until LQ;end;else(XG)[dY[10]]=dY[9]==XG[dY[4]];end;else do if uY==39 then local Hc=(dY[5]);XG[dY[10]]=XG[Hc]..XG[Hc+1];else CQ[dY[5]]=XG[dY[10]];end;end;end;else do if not(uY<36)then if uY~=37 then local rw=XG[dY[5]]/dY[8];XG[dY[10]]=rw-rw%1;else(XG)[dY[10]]=XG[dY[5]]>=XG[dY[4]];end;else(XG)[dY[10]]=Q(dY[9],dY[8]);end;end;end;end;else if not(uY>=49)then do if not(uY<45)then if not(uY<47)then if uY~=48 then(XG)[dY[10]]=XG[dY[5]]-XG[dY[4]];else local n0,D0=dY[10],((dY[4]-1)*50);for qU=1,JG-n0 do do XG[n0][D0+qU]=XG[n0+qU];end;end;end;else if uY~=46 then do if dY[4]==12 then kG=kG-1;(Zz)[kG]={[5]=(dY[5]-213)%256,[3]=16,[10]=(dY[10]-213)%256};elseif dY[4]~=13 then do XG[dY[10]]=XG[dY[5]];end;else kG=kG-1;do Zz[kG]={[5]=(dY[5]-82)%256,[3]=8,[10]=(dY[10]-82)%256};end;end;end;else XG[dY[10]]=dY[9]-dY[8];end;end;else do if not(uY>=43)then if dY[4]~=234 then repeat local Mn,En=Wz,(XG);do if not(#Mn>0)then else local bl=({});for Au,Vu in R,Mn do do for JN,gN in R,Vu do do if not(gN[1]==En and gN[2]>=0)then else local Kl=gN[2];do if not bl[Kl]then(bl)[Kl]={En[Kl]};end;end;(gN)[1]=bl[Kl];do gN[2]=1;end;end;end;end;end;end;end;end;until LQ;return qQ,dY[10],JG;else do kG=kG-1;end;do(Zz)[kG]={[10]=(dY[10]-66)%nY,[3]=50,[4]=(dY[5]-66)%256};end;end;else do if uY==44 then local Ze=(dY[10]);JG=Ze+dY[5]-1;XG[Ze]=XG[Ze](z(XG,Ze+1,JG));JG=Ze;else(XG)[dY[10]]=dY[9]%dY[8];end;end;end;end;end;end;else do if uY<52 then if not(uY<50)then do if uY~=51 then if dY[5]~=31 then if not(XG[dY[10]])then else kG=kG+1;end;else do kG=kG-1;end;Zz[kG]={[3]=20,[10]=(dY[10]-42)%256,[5]=(dY[4]-42)%256};end;else do if XG[dY[5]]~=dY[8]then else kG=kG+1;end;end;end;end;else if dY[9]==XG[dY[4]]then else kG=kG+1;end;end;else if not(uY>=54)then if uY==53 then(XG)[dY[10]]=W(dY[9],dY[8]);else if dY[4]~=46 then XG[dY[10]]=oG[zz+1];else kG=kG-1;(Zz)[kG]={[10]=(dY[10]-176)%256,[4]=(dY[5]-176)%nY,[3]=100};end;end;else do if uY~=55 then for tS=dY[10],dY[5]do do(XG)[tS]=VQ;end;end;else XG[dY[10]]=XG[dY[5]]%dY[8];end;end;end;end;end;end;end;end;else if not(uY>=14)then if not(uY<7)then do if not(uY>=10)then if not(uY>=8)then(XG)[dY[10]]=qQ;else if uY==9 then do(XG)[dY[10]]=I(dY[9],XG[dY[4]]);end;else do repeat local ia,Oa=Wz,(XG);if not(#ia>0)then else local AE=({});for lE,UE in R,ia do do for ST,tT in R,UE do if not(tT[1]==Oa and tT[2]>=0)then else local JM=tT[2];if not AE[JM]then(AE)[JM]={Oa[JM]};end;do tT[1]=AE[JM];end;(tT)[2]=1;end;end;end;end;end;until LQ;end;return;end;end;else do if not(uY>=12)then if uY==11 then repeat local xn,Qn=Wz,(XG);do if not(#xn>0)then else local RR={};for nz,oz in R,xn do do for L4,j4 in R,oz do if not(j4[1]==Qn and j4[2]>=0)then else local N2=j4[2];if not(not RR[N2])then else(RR)[N2]={Qn[N2]};end;(j4)[1]=RR[N2];j4[2]=1;end;end;end;end;end;end;until LQ;return LQ,dY[10],1;else(XG)[dY[10]]=XG[dY[5]][dY[8]];end;else do if uY==13 then XG[dY[10]]=s(XG[dY[5]],XG[dY[4]]);else kG=dY[7];end;end;end;end;end;end;else if not(uY<3)then if not(uY>=5)then if uY==4 then local cZ=(dY[10]);XG[cZ](XG[cZ+1]);do JG=cZ-1;end;else local UN=(dY[10]);JG=UN+dY[5]-1;(XG[UN])(z(XG,UN+1,JG));JG=UN-1;end;else if uY==6 then if XG[dY[5]]==dY[8]then else kG=kG+1;end;else(XG)[dY[10]]=Q(XG[dY[5]],XG[dY[4]]);end;end;else if not(uY<1)then if uY~=2 then(XG)[dY[10]]=XG[dY[5]]~=XG[dY[4]];else(XG)[dY[10]]=XG[dY[5]]%XG[dY[4]];end;else do ZG[dY[1]]=XG[dY[10]];end;end;end;end;else if not(uY<21)then if not(uY>=24)then if uY>=22 then if uY==23 then do(XG)[dY[10]]=W(dY[9],XG[dY[4]]);end;else if not(XG[dY[5]]<=dY[8])then kG=kG+1;end;end;else local tp=(dY[10]);local Zp=XG[dY[5]];(XG)[tp+1]=Zp;XG[tp]=Zp[dY[8]];end;else if not(uY>=26)then do if uY~=25 then XG[dY[10]]=I(XG[dY[5]],XG[dY[4]]);else if not(not(XG[dY[5]]<=XG[dY[4]]))then else kG=kG+1;end;end;end;else if uY==27 then XG[dY[10]]=LQ;else local gO=(dY[10]);do(XG)[gO]=XG[gO](XG[gO+1]);end;JG=gO;end;end;end;else if not(uY>=17)then do if not(uY<15)then if uY~=16 then XG[dY[10]]=s(dY[9],dY[8]);else if dY[4]~=4 then local Av,Qv=dY[10],(eG-zz);if not(Qv<0)then else Qv=-1;end;for MU=Av,Av+Qv do(XG)[MU]=oG[zz+(MU-Av)+1];end;JG=Av+Qv;else do kG=kG-1;end;Zz[kG]={[3]=50,[4]=(dY[5]-248)%256,[10]=(dY[10]-248)%256};end;end;else(XG)[dY[10]]=XG[dY[5]]-dY[8];end;end;else if not(uY<19)then if uY==20 then repeat local Tj,nj=Wz,(XG);do if not(#Tj>0)then else local SU={};do for OD,yD in R,Tj do for PU,BU in R,yD do do if not(BU[1]==nj and BU[2]>=0)then else local DX=BU[2];if not SU[DX]then SU[DX]={nj[DX]};end;do BU[1]=SU[DX];end;(BU)[2]=1;end;end;end;end;end;end;end;until LQ;local AI=dY[10];return qQ,AI,AI;else XG[dY[10]]={z({},1,dY[5])};end;else if uY~=18 then XG[dY[10]]=XG[dY[5]]^XG[dY[4]];else local WL=(dY[5]);local DL=(XG[WL]);do for Ll=WL+1,dY[4]do DL=DL..XG[Ll];end;end;do(XG)[dY[10]]=DL;end;end;end;end;end;end;end;else do if uY<84 then if not(uY<70)then if not(uY<77)then if uY<80 then do if uY>=78 then if uY==79 then local Uy=(dY[10]);(XG[Uy])(XG[Uy+1],XG[Uy+2]);JG=Uy-1;else(XG[dY[10]])[XG[dY[5]]]=XG[dY[4]];end;else(XG)[dY[10]]=W(XG[dY[5]],dY[8]);end;end;else if not(uY<82)then do if uY==83 then(XG)[dY[10]]=XG[dY[5]]<=dY[8];else local SH=dY[10];local tH=dY[5];JG=SH+tH-1;repeat local Rh,Mh=Wz,(XG);do if not(#Rh>0)then else local FA={};for cr,Jr in R,Rh do for FP,LP in R,Jr do if not(LP[1]==Mh and LP[2]>=0)then else local hu=(LP[2]);if not(not FA[hu])then else do(FA)[hu]={Mh[hu]};end;end;do LP[1]=FA[hu];end;LP[2]=1;end;end;end;end;end;until LQ;do return LQ,SH,tH;end;end;end;else if uY~=81 then local Y_=(dY[9]/dY[8]);(XG)[dY[10]]=Y_-Y_%1;else XG[dY[10]]=ZG[dY[1]];end;end;end;else if not(uY<73)then do if uY>=75 then if uY==76 then(XG)[dY[10]]=dY[9]>XG[dY[4]];else local Lo=(sz[dY[5]]);(XG)[dY[10]]=Lo[1][Lo[2]];end;else do if uY~=74 then local xC=(sz[dY[5]]);(xC[1])[xC[2]]=XG[dY[10]];else XG[dY[10]]=XG[dY[5]]<XG[dY[4]];end;end;end;end;else do if not(uY>=71)then if not(dY[9]<=XG[dY[4]])then kG=kG+1;end;else if uY~=72 then do(XG)[dY[10]]=s(XG[dY[5]],dY[8]);end;else if dY[4]~=27 then(XG)[dY[10]]=VQ;else kG=kG-1;Zz[kG]={[4]=(dY[5]-177)%256,[3]=92,[10]=(dY[10]-177)%256};end;end;end;end;end;end;else if not(uY<63)then do if not(uY>=66)then if not(uY<64)then if uY~=65 then(XG)[dY[10]]=XG[dY[5]]*XG[dY[4]];else(XG)[dY[10]]=Q(XG[dY[5]],dY[8]);end;else do if dY[4]~=135 then XG[dY[10]]=-XG[dY[5]];else kG=kG-1;(Zz)[kG]={[4]=(dY[5]-171)%256,[3]=50,[10]=(dY[10]-171)%256};end;end;end;else do if not(uY>=68)then if uY~=67 then(XG[dY[10]])[dY[9]]=XG[dY[4]];else XG[dY[10]]=XG[dY[5]]+XG[dY[4]];end;else do if uY~=69 then local ot=dY[10];(XG)[ot]=XG[ot](XG[ot+1],XG[ot+2]);JG=ot;else do(XG)[dY[10]]=H(XG[dY[5]]);end;end;end;end;end;end;end;else if not(uY<59)then if not(uY>=61)then if uY==60 then XG[dY[10]]=dY[9]*XG[dY[4]];else do(XG)[dY[10]]=XG[dY[5]]>XG[dY[4]];end;end;else do if uY==62 then XG[dY[10]]=s(dY[9],XG[dY[4]]);else do XG[dY[10]][XG[dY[5]]]=dY[8];end;end;end;end;else if not(uY<57)then if uY==58 then if XG[dY[5]]~=XG[dY[4]]then else kG=kG+1;end;else local U6=(dY[4]-1)*50;local D6=(dY[10]);for f3=1,dY[5]do do(XG[D6])[U6+f3]=XG[D6+f3];end;end;end;else do if not(not(dY[9]<dY[8]))then else kG=kG+1;end;end;end;end;end;end;else if not(uY<98)then if not(uY>=105)then if not(uY<101)then do if not(uY>=103)then if uY~=102 then JG=dY[10];XG[JG]();JG=JG-1;else XG[dY[10]]=Q(dY[9],XG[dY[4]]);end;else if uY~=104 then if not(not(dY[9]<=dY[8]))then else kG=kG+1;end;else(XG)[dY[10]]=XG[dY[5]][XG[dY[4]]];end;end;end;else do if not(uY<99)then if uY~=100 then local Js=dY[10];do XG[Js]=XG[Js](z(XG,Js+1,JG));end;JG=Js;else if not(not XG[dY[10]])then else do kG=kG+1;end;end;end;else if dY[4]==89 then kG=kG-1;Zz[kG]={[3]=72,[5]=(dY[5]-49)%nY,[10]=(dY[10]-49)%256};elseif dY[4]==JY then kG=kG-1;Zz[kG]={[10]=(dY[10]-113)%256,[5]=(dY[5]-113)%256,[3]=63};else repeat local gL,GL=Wz,(XG);if not(#gL>0)then else local id={};for ZS,xS in R,gL do for eL,TL in R,xS do if TL[1]==GL and TL[2]>=0 then local Gm=TL[2];if not(not id[Gm])then else(id)[Gm]={GL[Gm]};end;TL[1]=id[Gm];(TL)[2]=1;end;end;end;end;until LQ;local uf=(dY[10]);do return qQ,uf,uf+dY[5]-2;end;end;end;end;end;else do if uY<EQ then if not(uY<BQ)then do if uY==108 then do(XG)[dY[10]]=not XG[dY[5]];end;else XG[dY[10]]=g(XG[dY[5]],XG[dY[4]]);end;end;else if uY~=106 then(XG)[dY[10]]=dY[1];else local TN=(dY[10]);local IN,aN=TN+1,(TN+2);XG[TN]=kQ(J(XG[TN]),tQ);do(XG)[IN]=kQ(J(XG[IN]),xY);end;do XG[aN]=kQ(J(XG[aN]),CY);end;(XG)[TN]=XG[TN]-XG[aN];do kG=dY[7];end;end;end;else if not(uY<111)then if uY==112 then(XG[dY[10]])[dY[9]]=dY[8];else XG[dY[10]]=XG[dY[5]]<=XG[dY[4]];end;else if uY~=110 then do XG[dY[10]]=XG[dY[5]]==XG[dY[4]];end;else XG[dY[10]]=XG[dY[5]]*dY[8];end;end;end;end;end;else if not(uY>=91)then if uY>=87 then if uY<89 then if uY==88 then do(XG)[dY[10]]=CQ[dY[5]];end;else if dY[4]~=75 then do(XG)[dY[10]]=#XG[dY[5]];end;else kG=kG-1;do(Zz)[kG]={[10]=(dY[10]-94)%256,[3]=45,[5]=(dY[5]-94)%256};end;end;end;else if uY==90 then local fB,GB=hz[dY[7]],VQ;local nB=(fB[7]);do if not(nB>0)then else GB={};for A8=0,nB-1 do local q8=Zz[kG];local L8=(q8[3]);if L8~=45 then GB[A8]=sz[q8[5]];else do(GB)[A8]={XG,q8[5]};end;end;kG=kG+1;end;e(Wz,GB);end;end;do XG[dY[10]]=nQ(GB,ZG,fB);end;else repeat local ya,ma=Wz,XG;if not(#ya>0)then else local kh={};for Jw,Qw in R,ya do for Ov,Lv in R,Qw do do if not(Lv[1]==ma and Lv[2]>=0)then else local j_=(Lv[2]);if not(not kh[j_])then else kh[j_]={ma[j_]};end;Lv[1]=kh[j_];Lv[2]=1;end;end;end;end;end;until LQ;return LQ,dY[10],0;end;end;else do if not(uY>=85)then(XG)[dY[10]]=dY[9]^XG[dY[4]];else if uY==86 then(XG)[dY[10]]=XG[dY[5]]~=dY[8];else local f1=(dY[10]);XG[f1](z(XG,f1+1,JG));JG=f1-1;end;end;end;end;else if not(uY>=94)then if not(uY<92)then if uY==93 then(XG)[dY[10]]=LQ;kG=kG+1;else if dY[5]==53 then do kG=kG-1;end;(Zz)[kG]={[4]=(dY[4]-20)%256,[10]=(dY[10]-20)%256,[3]=50};elseif dY[5]~=93 then local MU=dY[10];local rU=MU+3;local ZU=MU+2;local fU={XG[MU](XG[MU+1],XG[ZU])};for Qm=1,dY[4]do do XG[ZU+Qm]=fU[Qm];end;end;local tU=(XG[rU]);if tU==VQ then kG=kG+1;else(XG)[ZU]=tU;end;else kG=kG-1;Zz[kG]={[5]=(dY[4]-202)%256,[10]=(dY[10]-202)%256,[3]=16};end;end;else local le=dY[10];local ze=(XG[le+2]);local Ee=XG[le]+ze;(XG)[le]=Ee;if not(ze>0)then do if not(Ee>=XG[le+1])then else kG=dY[7];do XG[le+3]=Ee;end;end;end;else do if not(Ee<=XG[le+1])then else do kG=dY[7];end;(XG)[le+3]=Ee;end;end;end;end;else if not(uY>=96)then if uY~=95 then if not(XG[dY[5]]<=dY[8])then else kG=kG+1;end;else(XG)[dY[10]]=XG[dY[5]]/XG[dY[4]];end;else if uY==97 then local hc=(XG[dY[5]]/XG[dY[4]]);do XG[dY[10]]=hc-hc%1;end;else XG[dY[10]]={};end;end;end;end;end;end;end;end;end;end);if zG then if KG then if lG==1 then do return XG[TG]();end;else return XG[TG](z(XG,TG+1,JG));end;elseif TG then do return z(XG,TG,lG);end;end;else if Y(KG)~=AY then G(KG,0);else do if not(v(KG,YY))then else return jY[GY]();end;end;do if not(v(KG,SY))then G(KG,0);else(G)(rY..(Kz[kG-1]or"(internal)")..": "..j(KG),0);end;end;end;end;end;end;if not(iQ)then else(iQ)(uz,Az);end;do return uz;end;end;YQ=10;end;end;end;else if not(YQ<=0)then if YQ~=1 then(CQ)[1]=t;YQ=8;else YQ=3;end;else u=i();YQ=4;end;end;end;until(qQ);end)("\95\95\109\111\100\101","\114\115\104\105\102\116",setmetatable,coroutine,109,tostring,16777216,nil,bit,"\115\117\98",string,"\108\115\104\105\102\116",table.unpack,173,string.gsub,false,next,"\115\116\114\105\110\103",select,"\94\46\45\58\37\100\43\58\32",107,unpack,"\46\46",bit32,setfenv,_ENV,true,"\98\121\116\101",table,string.char,"\114\101\112",tonumber,"\96\102\111\114\96\32\108\105\109\105\116\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",rawget,"\98\97\110\100","\121\105\101\108\100",assert,type,"\96\102\111\114\96\32\105\110\105\116\105\97\108\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114",error,getfenv,178,"\105\110\115\101\114\116","\118",256,rawset,"\96\102\111\114\96\32\115\116\101\112\32\118\97\108\117\101\32\109\117\115\116\32\98\101\32\97\32\110\117\109\98\101\114","","\98\110\111\116","\98\120\111\114","LPH/8FE001393623322332243D333222422H332232223H33222H3222334H32232H33232H3332332223332363322H2322D22233322H2233643D323303C6F7BD7E855B920A020085055FC22B6HFF610A0200232HE0E3600C834381030CAA2AA82A0C054504055A4H845157172H57692HEE569F13F979438C13A8DAC342052B7F46592F3248147E5BEDEEFF03530CD13B180C7F80AFA31E4H365AA1E121A1653HF0700C3H53F0363A7A2H3A5A4H55004H94513H27A70C4H7E51093H4900F84DFB122D4H3B1E4H022A7H00023H00F260E2828E01C40A0200D52H000C3H008F90659E0BE35E03A94CB80E00083H00C3D4F9C2FFB2303E000B3H007BECF11A373BA24850659D5FA18H000A3H00726FF045FE9F7D83A6C2000D3H0088BDD6A33486749A7266E7140200093H00D17A17B8ADE8761CBD5H005FE8037H00113H00D24F50255EAC19B547E29CFC42E2F6D5E7000A3H00BF80150E3BF3EEBE9E6E00093H008DE6F3C4A95056C4605F028H00083H00BEABDCA18A09211100093H009663F499E2C0BF901F000C3H001B0C913AD70B0832B541E7E4000D3H000F10E51E8B63DE8928C63E9737000B3H005479427F402HBB960E14E85F00016H005FD17H005F047H005FFF8H00093H00B7D84DA6B3DB369E9B0C000B3H0070C57E6B9C123E5561533100093H0023B459A25FD4CC5EBE000A3H00CC51FA97384067E78721000B3H0052CFD0A5DE399D36CD621C000D3H001DB6031439765073E1FCD24256000C3H005A77980D66112B46DECA51EB000C3H003E2B5C210A80AD8970861A6F000F3H00621F6075EEC4D365D5248C9FAF3DC3000C3H0009128F9065D27EDD215FE919000A3H00DD76C3D4F99DA0A1312A000A3H007BECF11A3707924B5C6000113H00E9726FF0458D8E688CAFD3E9C9B7C158BC000A3H0022DF2035AE0413A11560000A3H00B8AD861364968D3C254700103H005ECB7CC12AD8B7F053F7F5CDE3DDEC705F8H005F018H00093H000E3BACB1DA9470EC941E000A3H00F3C4A9322FC066DFC7B05F268H000D3H00A18A67487DE20C9AEC8FFD8587000B3H006E1B0C913AA5191A35B65000093H0089920F10E541D450E4000B3H00EA47A85DF61C0B1A23132C000A3H00D5CEFB6C71C5E8B538CA000F3H00B38469F2EF2F9A100EEB0824436D45010D0200CB7D3DDBFD0C2H44E2C40CBF7F1A3F0CDE5EDCDE5A2HD1D4D15108C80E086933730B42134202F9361325E9745964CCA8729538E72A9BFF57260963DE1E79BE004A68907B99365ADBB1D7015CCAAD8222134D0DEFCD0CD4DE54C62D2H0F0D8F0CEE272HE668E1A8EBB30A3H98180CC38A868351D25B11400A3H35B50C1C95999C5177D6A502572HF60B890CC98009081A3HE0600CEB222BB9369A8C4CF6621D572H1D64E402AD1F4D5F1F9C4C33FE3EF47E0C71F1E0F10C68A8A03821D393C4530C6222F2E20C850D05152D2CECD3530C87D291AD62C64E2H0664995CD1384C3038F0714F3H7BFB0CAAE2EA2D36ADE52HED60B4FC2HF432AFF355A7158E062H0E60C1492H413278D40E9328E32B2H2307B23A2H7264D53E846F263C5CAE8957D71728A80CD6F6042957A96956D60C80090013484B822HCB64FA60E4C9612HBD803D0C445B16B5572HFF06800C1E97160F3B113H910CC8CD22C85B73F361F30CC23409DA34A5E5E9250C4C8C79CC0CE72F27352D26E6D9590C79F071684A909791EC102H1B659B0C0A8AF6750C8DCD4A9E332H1464940C4F0F6BCF0C2ECEBC1F5721E92HE16018D02HD83203E7545A62929B12822DF5FDF574443HDC5C0CF77F77933676D6247657C9A95B095720E027A00CAB8B792B571AFB085A575D9DA2220CA42D24A5443H9F1F0C3E373EBC36B1B82HB13268E85AE80C13931B930CE22HAA3B4205CD0FD6702H6C96130C87CF4F554246C646C60C592H118142F0B8382042BB3B45C40C6A22A2B2422DAD2FAD0C743CB3BB422HEF11900C0E2H46C642C12H8901422HF804870C232H6BF242F22HBA2042552H1D9242BC2HF47742571F9F804256D6AB290CA92HE16C424080BD3F0C4B020B1A2D3ADB287A577DF47DFD1E3HC4440CBF36BF30369ED62H5E6351D151D10C88C089885AF37BB0B3602HC238BD0CE5ECE4E55A8C4C78F30C67274CE70C66266E723A2HB993390CD010C0500CDBFD7710624ACAA7350C8D2HCA4D422H5459D40C0F8A2H8F60AE6B6E6C1321E7202169181E2H1832C30293070C92D452D21BF5B32HB5329CF94774473771BEB769B6F02H765A49CC898B3960663H60ABAD2HAB321AAE747361DD9B2H9D6064E22HE4605FD92HDF32FE1EE2B51F31F7F4F16968AE2HA8321386B1570EE2A52HE25A3H85842D3HACA62D3H070E2D2H86068F2D2H59D9512D2HF070FA2DFBBBF97B0CEA6D2H6A5A3H6D632DB4B32H745A3H2F202D0E511CB8574159FBE02A387827B80CA323A6230CB22HF56A4255D555D50C7CFB3F3C601750D0D842961668E90C692EAEB942C0870712420B4CCCD3427ABA85050C7D2H3AB84204C4FB7B0C3F2H78EE42DE2H990C42D12H961642882HCF43422HF3F2730C422H059B4265A26FB6702HCC35B30CE72HA02F42A66656D90CB9FE7E6E4210D0EE6F0C9B1B9F1B0C4A6B98CA570D45871E4E94548C140C8FC54FCF1BEEA42HAE32A137A3C93518B8CA1B574383BE3C0C2H12D40133F5B5D2750C5C9C0CDC0CB77FF7F61A3HB6360C89C1C9BB362HA061B0332HEBFE6B0C9A5A9A1A0CDD3DCFE25724E4D95B0CDFC08D2A57BE7E40C10C2H316EB10C2871D2C92A935387130C2H220AA20C4525D785572HECEF6C0CC7A655075706CF4CD52799D0999B03303930212DBB33322A4EAA23A2BB683HAD2D0CB4BDB1B451EF67667E4ECE8ECF4E0C4101492H062H7861F80CE3A3E4630CF2D2207257957487D5572H7C7DFC0CD75F521870D6162BA90CA9897B295740C9C0D12D2H8B890B0CFA5BA8FA57FD9C6F3D5784CD44451ABFB5BFAE2DDED45EDE1E3HD1510C0802883F36337A2H33552H4240C20C252HEC77270CCCF3730CE706F5A757262FE7E669F9302H393290BE3A26515B12D2C8270A03CBCA692H4DBB320C5434C694572H0FF5700CAE0EFCAF57A12155DE0C9818D3180C830A8B922552D2AC2D0CB53EB9224E2H9C921C0CB73CFD210A3HF6760C89020C095120EB23F60A3H2BAB0C1AD1DFDA519DFE0F5E576424991B0C9FBECD1E57FE7EEB7E0C71F87671513H28A80CD3DAD6D351226BE2732D058C05041AECDF8D793F87C78C070C064617860CD9D1D3D96970B08F0F0C3B737B73576AE2E0EA69ED65D46D6AF4417FAC34AF2FED2F0C0E4E2F8E0C819E537C57F8B038B80B63D6A57A4872F2A60D0C2HD5DF550C3C5CAEFC57D7972AA80C561C96161BA96956D60C000A80142DCB0B34B40CFA7AF77A0C3DF42HBD64844493040CFF7FCB7F0CDE941E1F1A3H11910C8842C86636F392E13757820289020CE547B79457CCAE5E085727E7DA580C262E26202DB9A6EB445710989081489B532H1B648AF37F025D8D0DA40D0C2H14EA6B0C4F8F47CF0C6EA42H2E5C2HE1109E0CD898E8580CC3CA2HC32A1218AC125B2H758B0A0CDC942EA35B2H7755F70C363E3C3669490949C90CA0282A20696B2B6BEB0C5A129A172D5D9DA3220CA42C59DB6A5F999EE3103E7E7FBE0CB1711ECE0C68897A2957D31A14136962AB2HA23205E89D1A162CE5EC6D443HC7470C064FC6213699501014683HB0300C3BB2BEBB51AA24AF305C2DADDE520C347434B40C2F0F7DDD572H4EB2310C2H8199010CF8B0D3785B63A3971C0C7253A0875715F7072H57FCABEAD26217D7E2680C565CD6422DE9A917960CC04A2H40608B012H0B323A6A7A3B1E3D2HF7FD6904CE2HC432BF931BFF51DEBCCC1D575191AE2E0CC883828869F3B82HB332423779BB2F25EFF3656A0CDA9AA162272D2H6764264D39E22EB9B339AD2D2HD02AAF0CDB125B5A39CACFC35B4ECD2CDFFE575494AB2B0C4F868F9D2D6EAE69EE0CA1682123033H18980C830A839E36D2334093572HB5B6350C9C151C1D1337BE2HB7323678253D26C9689BC857602060E00C6B4A399A575ADA59DA0C1D7C0FDC57E4241E9B0C1F3FCD9D572H7E83010C3110E3CC57A8E853D70CD3D55A5D4EE2A2E1620CC58F05841E3HAC2C0C470D87603606CF2H86553H59D90C70F9708236FBBB11840CEA602H6A60ED672H6D32345AA255246FCDBD12578E4E72F10CC1CBC6C1693878C3470CA342319757323BF1F251555FD5442D3CFCC4430CD7B745175796D6B6160C29E02122688089CA920A0B424B4F2D7ABA85050C3DDC2F7C5704C4FB7B0CBF76787F695E972H9E3291B12B075BC802C0C3683HF3730C0208070251252F66310A3HCC4C0CA7ADA2A751E6EFA6A4033HF9790C5019901936DB921B9E2D0A43898A513H0D8D0C149D9194518F2E5D8F572E4FBCEF57212861630358D8BF270CC30A4A4E683H12920C75FCF0F5515C1C85230CF7FFFDF769B6BE2HB632C995225F64607F329C573HEB6B0C9A927FE56A5DD5D7DD692H24DB5B0CDF55189F5BBE7E66C10CF1DF90643FE868EB680C2H9342EC0C62FCB01B574543C5C41A3HEC6C0CC741C73436C64340CC4E19DF9C904030F0CF4F0CBBFD3F36432A2CEEA737ADEDAD2D0C34B22HB42D6FAF93100C0E12DCF25701C1927E0C3878307F06E3631B9C0C2H32E44D0CD56193CC487CBC6EFC0C97D783170C96DE2HD62AE9A3627E4E008BC4C9408B4B8B0B0C7A317EAD377DBD7DFD0C844FC4442DBF7FBF3F0C1E155AC943D1912FAE0CC8D39A4E5733B3C54C0CC2A1D0035765A59A1A0C4C000C1B2D276C67E6443HE6660CF932B96836901BD44718DB1B24A40C0A01C1C0684DCDB7320CD45DDCC5010F8F82700CEEAE2AFD33A1E111DE0C981892180C836211C2575212B02D0C357D4B4A5B9C1C6AE30C773DB725572HF634E25E09C9DE760C2HE0E1600C6BE12A2B699AD02HDA329D927DBC2EE485F627575FDFA2200CFEBEED7E0C71F8767151286829A80CD35AD3D21A3H62E20C050C85DB36ECDF8D793F87C755F80C064606860C19394B995770B08D0F0C2H7B98040CAA6362F85F6D64E5FC112HF4F6740CAF26A7BE434E87061F404101BF3E0CB8B12HB83223A3A75C0C72B273F20C15DDD5C72DBC35B4AD6DD79729A80C562H9F0402A9E0A0BB2F0040FE7F0C8B2BD98A57FABA06850CBD7D4EC20CC44E4D9656BFF7FE83101E2H9E610C2H11836E0C4808AF370C33B4B6623D824269FD0CE545B7E4574CC5445D6F2729A23D5C26A697590C2H79CB060C90989080481B532H1B644A899D15648DC5698D2614D4EB6B0CCF1BCC662D2ECD3C6D5721EA61E12D583B4A995783CF43D52D52191293443H75F50C1CD7DC9D36B73CF36018F6FD3D3C684983425E27A06B242940EBA06F7C439A915E0D379D864F1B572HA419DB0C9F7F8DAD577EDE2C01573139B1B01A3H68E80C931B93C236E262E7B3064585303A0C6C2CDE130C4727D5FA57464FC6460B59132H1907F0FA2HB064BBD6BBA46FAACBB869572DEDD2520C2H34F54B0C6F2HE5EF69CE442H4E32C1714E1F58B81A6ABB576368696369323805CD6A55101E15697C39F5FC6997122H1732568D7CC61229ACECE96940C046C00C4B0B0D0B513H3ABA0CBDFDF8FD51840406C40A3H3FBF0C1E5E5B5E51D151572H51082HC8890A3HB3330C42C2C7C25125E5E3E5513H8C2H0CA767626751A6E6A0670AB92HB8B9513HD0500C5B5A5E5B514ACB0A480A8D0CC5CD51D4155654513H8F0F0CEE6F6B6E51E1E027215118981C980C430708036952162HD2692HB5B2350C1C1A161C6937F2DDC86A2H767076513H89090C2H60656051ABEBE1AB0A5A1AAD250C9D1E9C9D513HE4640CDFDCDADF513E3D787E5171B2F0F1513HA8280CD350565351222150E358850587050CAC2EA7AC513H07870C8684838651195B5E59513HF0700CBBF9FEFB51EA28616A513H6DED0CF476717451EFED252F518E4E74F10CC1C50BC15838F8CF470C6367A7A36932F62HF23295916E120D3C392H3C602H57B8280C7H00063H00BA9502E77610950A02001D2H000B3H005653FC2152ACBD616B48005F018H00063H00B98A37D025E5000D3H0003EC51C28FBA5C09BE159C9B8B880A0200D796169F160C35753CB50C2HA8A1280C5F9F2H5F5A0A4A2H0A5199D99899693C7C054C136323581513BEA18C14317D9CD39F23D0717B323DE77AB90F5B328B80D46DE124081B12A47E9F6200EB95227602269136D6640527489B392H787DF80CEFED6FEF1BDA56D15532693HA92A8C0FB30B1FF3722HF3633H0E8E0C4D4CCD0136A0A12HE069F7B732B76A82422H0230F1712H3169343HF432FB5299285836372H36513H55D50C48092H48513FFE2H7F69EAAB2HAA32796B887952DC686EF25C830378FC0CDE3H5E60DD3H5D32F069552D45C7F144AD2D52D2A92D0C81C02H40683HC4440C8B0A2H4B51864687863A3H65E50C185818980CCF0FF1705BFA7AF87A0CC90B2HC9513HAC2C0C13512H13516E773C9C576DB77F425780020081443H57D70CA2A0A2E0365156D44B5C945468EB0CDB5B2FA40C163HD64BB575F5750B2H019H000H00B44A4B330E83DD50900BCB6107643D100B2F8FC03AFA03B06AAB7A8D47AE264B241C90A1893B970A020071005FFF7H00E53H00205FA002425F017H005F9H000H00063H00C0551A0F348E000A3H000EC3A8BD02076E2H985F8E0A0200132HE8E5680CDB1BD75B0C12921E920C3DFD2H3D5A4CCC2H4C516FAF6E6F6916562E6413F1714B8713B05C4F9E40C3D469B717DA28297C6E65596F644C5493BB6750D7ADAFD5679E63F225315942A898392HF8F1780CEBAA2BAB4B3HA2220CCD0C2H8D51DC5D2H5C2D7FBE3E3D4EA626AD260CC141C1412DC03H002D93531312043HEA6A0CB52H3508363HE4640C2H27A72708AEFE544F2A2H696CE90C0848F5770C7BBA2H7B6932333H325D1F46AA586C6DEC6E490F8F0D8F0C2HF62H36692H916FEE0C50D02H10692HE3E1630C3A2H7A7B492HC58485513HF4740CB7772HF751FE7E05810C39B939B8492H18E6670C8B2H4B2H49C2023CBD0CADED2H2D692H7C80030CDF5F20A00C4HC64BA1E1E0E169603H2032F3899E423E8A4A2H0A69553HD532C47103596BC72H47C6448E4E71F10C49C92H096928E8D7570C9B3H1B69D23H52327D244270434C0C2H8C69EF6F50D06A2H16A4295B31F1C64E0C069H001H0032602835F150EE7E404695189BDA2D7308161E95092E001F8ED67AEE99F8D872848759DDCA63910A0200DD00570A0200D330B033B00C430340C30C2H1A199A0C2H6564655A14542H145157D72H57699E5E26EC139919A3EC13B876D5901C6BA18F676C22730C6D0ACDC5A0896C5C263E5066FFE5549913A64087DC2B81C4B1EA3D2H40C040089H002H00D09A1A2304EE140016F388030AABB658025CA5714F01008370D05E1F7C8BFF1B4001360E7918910A02009900600A0200F913D317930CD050D4500C89C98D090C8E4E2H8E5AEFAF2HEF517CFC2H7C69C585FDB7131A9A206E13CB10C59F6CE861ABEC15C1B096CB526692D35557A762CC03469456BBA929BDD5DB6C5C2H7273F20C833H032A2H00800008B9B46FE3627E3F2H3E10DF1FDF5F0C2C3HAC4B35F5CA4A0C0A3HCA2D2H7B85040C983H18592H019H000H003626C55AAADFD977C24740108E81A93706DD16895126032A16AE3DFD2CB3D65147ED488AD976910A02001900570A0200812H3132B10C9E5E9C1E0C47C745C70C2H7C7D7C5A4D0D2H4D518A0A2H8A692HC37BB1132H48733C13E9896F5015B67E078368FFE772AE1C54FF91230F852BB39C53A2F666AA063B2H49D55C603H202AA175A2082D9H002H0065C0FE2669C9EB61B6CE760EF5999344034A74EA4C4303B433140ECFEA0F9A6E422510873F3B910A02002D00570A0200A92HCECD4E0CDF1FDD5F0C5CDC5EDC0CD5152HD55A9ADA2H9A51BB3B2HBB69088830781311912A6613E63B65371F17B2251415349AE2DF3CCD04AC693FB2C0F6520DF3B26FA022209523CA2D893HC92AFE2AFD572D9H002H00FDD59238719FD64D60991A3F89A9740203EDAE1610D403C25B4F4623E915EA1D8FBD0759FD5A8B19AE8FC4712349C80C32362382215302B926FA021DB17CE478EB1F7F09156BC70A020099F700113H0090A53277B44AED1AB54261DF0EDEA576B300093H00B5C2874439C0ED640C5F007HFF5FA77HFF000E3H000A8F0CC1EEA1055CFCCAFED71780000A3H00784D9A9F9C4B3A5B6FB4000D3H00E2A76459C6BB386389F49CD130E537299A415B52BABFE5736D7AE0FB4CC6BF000E3H00F3D0E572B7AB576A41EDE2AFA9C15F5DFE6HFFE5326EE91FE49FD5BF000D3H00F19E0360F52EFF10156E3F2004E56H003EC0000E3H004ACF4C012E2ACB92C66A17983702E56H00F0BF5F8HFF1E000D3H00B88DDADFDC272678100B30A4B7000C3H0099062B489D57793E4C55DE4300093H0025B2F734A95522B1E100133H00FAFFFC31DE1093D01AEFC2F403328B58A7F578000F3H00416E533045913A35376F6211376A215F387HFF000C3H001C51FE63C01282EBDD2E970EE53A4F149F3D02CCBF000F3H0088DDAA2FAC6DC2918F7A30C534FBD4000B3H007B18ED3A3FDDAD165934715FD87HFF5FAB7HFFE56H0044C0001D3H00824704F96693FD2451471E41E5C34145B450229E91CB01C5E346E25C5800153H00A30095A267E927310B298A594C10976A5958178B46E5B14F62E0EB90623F000F3H00B42916BB58EE74D8ED46DE462643D85F8H00E5B9C24EC095FDCEBF5F017HFF000D3H00874439A6CB679FD50DA0C02BD0000A3H00B0C55297D4EDB71EE0CE000C3H009A9F9CD17EF787C26639ABD0000B3H00C6EB085D2A003025E677B600093H00E572B7F469B197148F000B3H00BABFBCF19EEB887D6C15FD00093H0079E60B287DF12EF9FD001B3H002E13F0059297662E087A5D2A36BBA389D14C71B6F394F5284D5E9600093H009D6AEF6C21F1FB676B5F82FE6HFF5FCE7HFF5FBC7HFF00083H00B2F734A9968990C400153H00FAFFFC31DEAE21E70B5352E37592E447CF580F0E73E5CC18FB9FB749D7BF000C3H00533045D217A856050CFC4C36910B0200EBCF4FCC4F0CCE8ECD4E0C2H2122A10C38B839385AC383C7C351B272BFB26935B58C4713BCFC07C9133752613857960F6A0C1D4904C0175740C22B0D542BC978C2427A49C38A5B5DD08F9E6404AE42410C2H1F1C1F513HDE5E0CF1B1F5F151C84884C80A2H53111369823HC232C5FF4A594D4CCC4C4D1A3H47C70C2HE666613619595A59513H10900C2HFBBFBB510ACA864A0A3HED6D0C2H54101451EFAF666F696E3HEE320125B7142018D858591AE3636063512H529ED30A1555DCD5691C3HDC32D70BCE31622H76F6F71A3H29A90C20A020D936CB0B080B513H5ADA0C7DFDB9BD51642468A50A3HBF3F0C3EBEFAFE519150989169E8E92HE832F3E3FA8B242262E2E31AA5A4A6A5516CED206E0AA766E4E76946072H063239F7AF9C0630B130311A1B5A585B513H6AEA0CCDCC898D5174B5F8360A3H0F8F0C4E4F0A0E51E1E064616938F978791A3H03830CB2F3F2B236F5747675517C7DB0FF0A3H37B70C96571216510948C0C96900C12HC032AB22F31A6CFAFB7A7B1A3H5DDD0C44C54496369FDE545F513H1E9E0CF170353151C849C50B0A3H53D30CC2430602514585C4D0424C8D878C5147C642840A3H26A60C59D89D9951909194530A3HFB7B0C4ACB8E8A512DEDACA74294552H542DEF6F2E3A42EEEF282E51C100C7020A3H98180C63E2A7A35112D02H126955D72H15699CDE2H1C6957D52HD7323644C8BF13A9E8696B2CA0206179428B0A4A4B513H9A1A0C3DBCF9FD51246528E70A3HFF7F0CFE7F3A3E51D193D7D169282A2H2832B39A32B03962E02A22696527E7E5696C6EA4AC69E7252H27324638024F41F9B8B93B2C30B071F9425BDA9A9B516A2B66A90ACD0FC5CD6934F6767469CF8D474F69CE4C2H4E3261AE20904A787AB3B86983412H433272F0263843753435B72C7CFC3DA9422H37B3E3702H1612D47049D09B265780C0819542AB3279C4572H7A3B2F425D5C9B9D513H04840C5FDE9B9F519E5F985D0A3H71F10C88094C485193519B936942402H4232C5254209708C8ECBCC694785CEC769E6642H6632595BAE6B2B501190922C3H3BBB0C0ACBCA03362HADECF44254D59594513HEF6F0CAE2F6A6E5181C08D420A3HD8580C23A2E7E35152905A526915975D5569DC9E5D5C6997152H1732F6E946E854696BA1A969E0A1A0222C2H4B8A02421A9BDBDA51FDBCF13E0A3H24A40CFF7E3B3F517EBC767E6911132H113268716BF45173B131336922602H6232E5AFFE7D456C2EE4EC69E7652H6732065F479C13B97B7D796970B22HB032DB037DDE3B2A6B6AE82C2HCD0C9842F46D269B578F4E0E1A424E4F888E5121E027E20AF8BAF1F869C3C18A8369F2307B726975F72HF5327CC7AC815A7736B7B52C9657170F4249888ADF708001414051EBAAE7280AFAF8F3FA699D1FD5DD69C4064C44695FDD2HDF329EDA0B8F647173B9B1694809088A2C3HD3530C4283028736C504C44C42CC4D0D0C51C786CB040A3HA6260CD9581D1951D012D8D0693BB97E7B698AC8020A692DAF2HAD32D42691322EEF2D282F696EAC2HAE3201F752A06CD899981A2C3H23A30C529312903695549400425C9D979C513H57D70C76F7B2B65129E82CEA0AA0E1A8630ACB0ACA41421A1BDA9A70BDBC7B7D51A465A2670A7FBD777F69FE7CB6BE6911532H5132689F6A1F00F3B17B736922A02HA23225BCBA2F5DECAD2C2E2C3HA7270C06C7C68A36B978B83442F071B773705BC28934576AEBABBF428D8C4B4D5134F532F70A3HCF4F0C0E8FCACE5121632D2169383A2H3832838C56D019F2F0BEB269B5773935693CBE2HBC32B7976E2C541657D6D42CC94808104240C18180513H6BEB0CFA7B3E3A51DD9CD11E0A842H8684691F1D2H1F329E8065CB6AB133F9F16988CA2HC83253D893B40942C0CFC269C5C70D05698CCDCC4E2C078646CE4226A7E7E65199D8955A0A3H10900C7BFABFBB514A88424A69EDEF2HED3294FD87025B2FED2H6F69AEEC2HEE3281BDD69652D89A505869E3612H633292A46BA75D15D7D9D5691CDE2HDC3217F0A0F219367776F42C69E828BC4260A1ABA051CB0ACE080A9ADB92590A3HBD3D0C64E5A0A451FF7EBE3542BE3F397E7051509791513HE8680C73F2B7B35122E324E10A3HA5250CAC2D686C51E725EFE76906042H063239DE3F071370F23830691B592H5B326A2BD483460D4F858D69F4B534362C3H0F8F0CCE0F0EB13621A060EC4238393BFB70C302CB010A32F338F11535772H755A3CBD7CFD4F77EEA5065796D79783422HC949C9082H00A13H00013H00083H00013H00093H00093H00B62567420A3H000A3H008E6B822A0B3H000B3H007240F95F0C3H000C3H00441CAF0C0D3H000D3H005B6953580E3H000E3H00BFA0EE250F3H000F3H006AAEDE7C103H00103H00889DE310113H00133H00013H00143H00153H00033H00163H00173H00013H00183H00183H00033H00193H001A3H00013H001B3H001B3H00033H001C3H001D3H00013H001E3H001E3H00043H001F3H00203H00013H00213H00213H00043H00223H00233H00013H00243H00253H00043H00263H00273H00053H00283H00293H00013H002A3H002A3H00053H002B3H002C3H00013H002D3H002D3H00053H002E3H002F3H00013H00303H00303H00063H00313H00323H00013H00333H00333H00063H00343H00353H00013H00363H00373H00063H00383H00393H00073H003A3H003B3H00013H003C3H003D3H00073H003E3H003F3H00013H00403H00403H00083H00413H00423H00013H00433H00443H00083H00453H00463H00013H00473H00473H00083H00483H00483H00093H00493H004A3H00013H004B3H004B3H00093H004C3H004D3H00013H004E3H004E3H00093H004F3H00533H00013H00543H00543H000D3H00553H00583H00013H00593H00593H000E3H005A3H005B3H00013H005C3H005C3H000E3H005D3H00623H00013H00633H00633H00113H00643H00653H00013H00663H00683H00113H00693H006A3H00013H006B3H006B3H00113H006C3H006F3H00013H00703H00703H00123H00713H00723H00013H00733H00733H00123H00743H00753H00013H00763H00783H00123H00793H007A3H00013H007B3H007B3H00123H007C3H007D3H00013H007E3H00813H00133H00823H00833H00013H00843H00843H00133H00853H00863H00013H00873H00873H00133H00883H00913H00013H00923H00923H001A3H00933H00943H00013H00953H00953H001A3H00963H00973H00013H00983H00993H001A3H009A3H009B3H00013H009C3H009C3H001A3H009D3H00A23H00013H00A33H00A33H001B3H00A43H00A53H00013H00A63H00A83H001B3H00A93H00AA3H00013H00AB3H00AC3H001B3H00AD3H00AE3H00013H00AF3H00AF3H001C3H00B03H00B13H00013H00B23H00B23H001C3H00B33H00B43H00013H00B53H00B53H001C3H00B63H00B73H00013H00B83H00B83H001C3H00B93H00BA3H00013H00BB3H00BB3H001C3H00BC3H00BD3H00013H00BE3H00BE3H001C3H00BF3H00C23H00013H00C33H00C63H001F3H00C73H00C83H00013H00C93H00C93H001F3H00CA3H00CC3H00013H00CD3H00D03H00213H00D13H00D23H00013H00D33H00D43H00213H00D53H00D83H00013H00D93H00D93H00223H00DA3H00DB3H00013H00DC3H00DE3H00223H00DF3H00E03H00013H00E13H00E13H00223H00E23H00E33H00013H00E43H00E43H00223H00E53H00EA3H00013H00EB3H00EC3H00233H00ED3H00EF3H00013H00F03H00F23H00253H00F33H00F43H00013H00F53H00F53H00253H00F63H00F73H00013H00F83H00F83H00253H00F93H00FF3H00014H00013H00012H00293H002H012H0002012H00013H0003012H0003012H00293H0004012H0005012H00013H0006012H0007012H00293H0008012H0009012H00013H000A012H000A012H00293H000B012H000E012H00013H000F012H0010012H002A3H0011012H0012012H00013H0013012H0013012H002A3H0014012H0015012H00013H0016012H0018012H002A3H0019012H001A012H00013H001B012H001B012H002B3H001C012H001D012H00013H001E012H001E012H002B3H001F012H0020012H00013H0021012H0021012H002B3H0022012H0023012H00013H0024012H0024012H002B3H0025012H0026012H00013H0027012H0027012H002B3H0028012H0029012H00013H002A012H002A012H002B3H002B012H002C012H00013H002D012H002E012H002C3H002F012H0035012H00013H0036012H0036012H002E3H0037012H0038012H00013H0039012H0039012H002E3H003A012H003B012H00013H003C012H003C012H002E3H003D012H003E012H00013H003F012H0040012H002E3H0041012H0044012H00013H0045012H0048012H00303H0049012H004B012H00014H00013H007499E2989472950A02009D8700443H001F98CD4E6B6ACA46CED994D521E0BF7530ADC7CE26171C478DAF3C19C1BCEA07F05E6059C12F11830A181FC8FDE7ACF3ED3F1F883A4DCF064F3E3F4E017F3F0BB0053F09000F3H002BF4398A37B9BCA05F16DF3BDAABA400093H007EDBE469FA8F61A9D1000C3H00B35C01323FE3DD0F7D84B407630A0200BBC080C3400C2H7B78FB0CDA1AD85A0C0D4D0C0D5A84C4858451EF6FEEEF693EFE864C132HA19BD4138819F64E286399C9332D620B88A50A35530CA53F0C8558E75C57A8CCF613C63D78C75789C92H895110D02H50518B2H0BCB152A3HEA691D3HDD3294324FED507F3FBF3E1E3H4ECE0C3171F1873618982H18633HF3730C2HF2728E364505C545652H5CDC5C082H00103H00013H00083H00013H00093H00093H00F96F42250A3H000A3H00EC04C8050B3H000B3H00E32422160C3H000C3H00E8E0D93A0D3H000D3H004DF4A47A0E3H000E3H00EF0371140F3H000F3H0075855F37103H00113H00013H00123H00133H00313H00143H00153H00013H00163H00163H00313H00173H00183H00013H00193H00193H00313H001A3H001B3H00013H001C3H001D3H00318H004991E03CC8741879FA5BCE69D639874B04B2EBD8089E003113024ABB82F42F2C86A6612B3900C57CE107840A3ACCED350CFB3B5E62EF024406A87DC7D8B6DC1D2794253E82E11A024B0CD047F662F26C02E6BAEE3465021BE0875B328E1DC524",pcall,"\35",string.match,"\97\116\116\101\109\112\116\32\116\111\32\121\105\101\108\100\32\97\99\114\111\115\115\32\109\101\116\97\109\101\116\104\111\100\47\67\37\45\99\97\108\108\32\98\111\117\110\100\97\114\121","\76\117\114\97\112\104\32\83\99\114\105\112\116\58","\98\111\114",...);
+
+
+
+
+local Config = {
+    WindowName = "🚶🏻‍♂️Elite",
+	Color = Color3.fromRGB(65, 0, 255),
+	Keybind = Enum.KeyCode.RightBracket
+}
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BracketV3.lua"))()
+local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
+
+local Tab1 = Window:CreateTab("Pistol 1v1")
+local Tab3 = Window:CreateTab("UI Settings")
+
+local Section1 = Tab1:CreateSection("Combat")
+local Section2 = Tab1:CreateSection("Visuals")
+local Section3 = Tab3:CreateSection("Menu")
+local Section4 = Tab3:CreateSection("Background")
+local Section6 = Tab1:CreateSection("Character") 
+local Section7 = Tab1:CreateSection("Misc") 
+
+
+
+
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Elite"; -- title of notification
+    Text = "Welcome to Elite"; -- bottom text
+    
+    Duration = 7; -- how long notification is on screen
+    })
+    
+
+
+
+
+
+local ESPSettings                       = { PlayerESP = { Enabled = false, TracersOn = false, BoxesOn = false, NamesOn = false, DistanceOn = false, HealthOn = false, ToolOn = false, FaceCamOn = false, Distance = 2000 }, ScrapESP = { Enabled = false, Distance = 2000, LegendaryOnly = true, RareOnly = true, GoodOnly = true, BadOnly = true }, SafeESP = { Enabled = false, Distance = 2000, BigOnly = true, SmallOnly = true }, RegisterESP = { Enabled = false, Distance = 2000 }, ESPColor = Color3.fromRGB(255, 255, 255), ToolColor = Color3.fromRGB(255, 255, 255)};
+local ESPFramework                      = loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/Femware-Leak/main/ESP.lua", true))()
+
+-->> Ui settings
+local Toggle3 = Section3:CreateToggle("UI Toggle", nil, function(State)
+	Window:Toggle(State)
+end)
+Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), function(Key)
+	Config.Keybind = Enum.KeyCode[Key]
+end)
+Toggle3:SetState(true)
+
+local Colorpicker3 = Section3:CreateColorpicker("UI Color", function(Color)
+	Window:ChangeColor(Color)
+end)
+Colorpicker3:UpdateColor(Config.Color)
+
+-- credits to jan for patterns
+local Dropdown3 = Section4:CreateDropdown("Image", {"Default","Hearts","Abstract","Hexagon","Circles","Lace With Flowers","Floral"}, function(Name)
+	if Name == "Default" then
+		Window:SetBackground("2151741365")
+	elseif Name == "Hearts" then
+		Window:SetBackground("6073763717")
+	elseif Name == "Abstract" then
+		Window:SetBackground("6073743871")
+	elseif Name == "Hexagon" then
+		Window:SetBackground("6073628839")
+	elseif Name == "Circles" then
+		Window:SetBackground("6071579801")
+	elseif Name == "Lace With Flowers" then
+		Window:SetBackground("6071575925")
+	elseif Name == "Floral" then
+		Window:SetBackground("5553946656")
+	end
+end)
+Dropdown3:SetOption("Default")
+
+local Colorpicker4 = Section4:CreateColorpicker("Color", function(Color)
+	Window:SetBackgroundColor(Color)
+end)
+Colorpicker4:UpdateColor(Color3.new(1,1,1))
+
+local Slider3 = Section4:CreateSlider("Transparency",0,1,nil,false, function(Value)
+	Window:SetBackgroundTransparency(Value)
+end)
+Slider3:SetValue(0)
+
+local Slider4 = Section4:CreateSlider("Tile Scale",0,1,nil,false, function(Value)
+	Window:SetTileScale(Value)
+end)
+Slider4:SetValue(0.5)
+-->> end ui settings
+
+
+
+Section1:CreateLabel("Silent Aim")
+local Camera = workspace.CurrentCamera
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local RenderStepped = RunService.RenderStepped
+
+local LocalPlayer = Players.LocalPlayer
+local chr = LocalPlayer.Character
+local hum = chr:WaitForChild("Humanoid")
+
+local game = game;
+local GetService = game.GetService;
+
+local RunService = game:GetService("RunService")
+local RenderStepped = RunService.RenderStepped
+
+local Workspace = GetService(game, "Workspace");
+local Players = GetService(game, "Players");
+local ReplicatedStorage = GetService(game, "ReplicatedStorage");
+local StarterGui = GetService(game, "StarterGui");
+
+local resume = coroutine.resume 
+local create = coroutine.create
+
+local LogService = GetService(game, "LogService");
+local HttpService = GetService(game, "HttpService");
+local ScriptContext = GetService(game, "ScriptContext");
+
+local UIS = game:GetService("UserInputService")
+
+local Request = http_request or request or HttpPost or syn.request
+local Player = Players.LocalPlayer;
+local Character = Player.Character;
+local Mouse = Player:GetMouse()
+local Cam = workspace.CurrentCamera;
+
+local WorldToScreen = Cam.WorldToScreenPoint
+local WorldToViewportPoint = Cam.WorldToViewportPoint
+local GetPartsObscuringTarget = Cam.GetPartsObscuringTarget
+
+local SilentSettings = { Main = { Enabled = false, TeamCheck = false, VisibleCheck = false, TargetPart = "Head" }, FOVSettings = { Visible = false, Radius = 120 } };
+local ValidTargetParts = {"Head", "Torso"};
+
+local RequiredArgs = {
+    ArgCountRequired = 3,
+        Args = {
+        "Instance", "Vector3", "Vector3", "RaycastParams"
+    }
+}
+
+local fov_circle = Drawing.new("Circle")
+fov_circle.Thickness = 1
+fov_circle.NumSides = 100
+fov_circle.Radius = 120
+fov_circle.Filled = false
+fov_circle.Visible = false
+fov_circle.ZIndex = 999
+fov_circle.Transparency = 1
+fov_circle.Color = Color3.fromRGB(255, 255 ,255)
+
+local function GetPositionOnScreen(Vector)
+    local Vec3, OnScreen = WorldToScreen(Cam, Vector)
+    return Vector2.new(Vec3.X, Vec3.Y), OnScreen
+end
+local function ValidateArguments(Args, RayMethod)
+    local Matches = 0
+
+    if #Args < RayMethod.ArgCountRequired then
+        return false
+    end
+
+    for Pos, Argument in next, Args do
+        if typeof(Argument) == RayMethod.Args[Pos] then
+            Matches = Matches + 1
+        end
+    end
+
+    return Matches >= RayMethod.ArgCountRequired
+end
+        
+local function GetDirection(Origin, Position)
+    return (Position - Origin).Unit * 1000
+end
+        
+local function GetMousePosition()
+    return Vector2.new(Mouse.X, Mouse.Y)
+end
+        
+        local function GetClosestPlayer()
+            if not SilentSettings.Main.TargetPart then return end
+
+            local Closest
+            local DistanceToMouse
+
+            for _, v in next, game.GetChildren(Players) do
+                if v == Player then continue end
+                if SilentSettings.Main.TeamCheck and v.Team == Player.Team then continue end
+        
+                local Character = v.Character
+                if not Character then continue end
+        
+                local HumanoidRootPart = game.FindFirstChild(Character, "HumanoidRootPart")
+                local Humanoid = game.FindFirstChild(Character, "Humanoid")
+        
+                if not HumanoidRootPart or not Humanoid or Humanoid and Humanoid.Health <= 0 then continue end
+        
+                local ScreenPosition, OnScreen = GetPositionOnScreen(HumanoidRootPart.Position)
+        
+                if not OnScreen then continue end
+        
+                local Distance = (GetMousePosition() - ScreenPosition).Magnitude
+                if Distance <= (DistanceToMouse or (SilentSettings.Main.Enabled and SilentSettings.FOVSettings.Radius) or 2000) then
+                    Closest = ((SilentSettings.Main.TargetPart == "Random" and Character[ValidTargetParts[math.random(1, #ValidTargetParts)]]) or Character[SilentSettings.Main.TargetPart])
+                    DistanceToMouse = Distance
+                end
+            end
+            return Closest
+        end
+        
+                local oldNamecall
+        oldNamecall = hookmetamethod(game, "__namecall", function(...)
+            local Method = getnamecallmethod()
+            local Arguments = {...}
+            local self = Arguments[1]
+        
+            if SilentSettings.Main.Enabled and self == workspace then
+                if ValidateArguments(Arguments, RequiredArgs) then
+                    local A_Origin = Arguments[2]
+                    local HitPart = GetClosestPlayer()
+
+                    if HitPart then
+                        Arguments[3] = GetDirection(A_Origin, HitPart.Position)
+    
+                        return oldNamecall(unpack(Arguments))
+                    end
+                end
+            end
+
+            return oldNamecall(...)
+    end)
+        
+
+resume(create(function()
+game:GetService("RunService").RenderStepped:Connect(function()
+        if SilentSettings.FOVSettings.Visible then 
+            fov_circle.Position = GetMousePosition() + Vector2.new(0, 36)
+        end
+    end)
+end))
+
+
+
+local SaylintTogle = Section1:CreateToggle("Enabled", nil, function(State)
+    SilentSettings.Main.Enabled = State
+end)
+
+local FovToggle = Section1:CreateToggle("Show FOV", nil, function(State)
+    SilentSettings.FOVSettings.Visible = State
+    fov_circle.Visible = State
+end)
+
+local Slider1 = Section1:CreateSlider("Fov Radius", 0,1000,nil,true, function(Value)
+    SilentSettings.FOVSettings.Radius = Value
+    fov_circle.Radius = Value
+end)
+
+local Colorpicker1 = Section1:CreateColorpicker("Fov Color", function(V)
+	fov_circle.Color = V
+end)
+
+
+Section6:CreateLabel("Local Player")
+local Slider1 = Section6:CreateSlider("Walk Speed", 0,150,16,true, function(v)
+	_G.WalkSpeed = v
+end)
+
+local Toggle111 = Section6:CreateToggle("Toggle WS", nil, function(State)
+    if State == true then
+        getgenv().WalkSpeedValue = _G.WalkSpeed; --set your desired walkspeed here
+        local Player = game:service'Players'.LocalPlayer;
+        Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+        Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+        end)
+        Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+        end 
+        if State == false then
+        getgenv().WalkSpeedValue = 16; --set your desired walkspeed here
+        local Player = game:service'Players'.LocalPlayer;
+        Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+        Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+        end)
+        Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+    end
+    end)
+
+    Toggle111:CreateKeybind("4", function(Key)
+        print(Key)
+    end)
+
+-------------
+local Toggle2 = Section6:CreateToggle("Toggle JP", nil, function(State)
+    if State == true then
+        getgenv().JumpPowerValue = _G.JumpPower; --set your desired walkspeed here
+        local Player = game:service'Players'.LocalPlayer;
+        Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+        Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+        end)
+        Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+        end 
+        if State == false then
+        getgenv().JumpPowerValue = 50; --set your desired walkspeed here
+        local Player = game:service'Players'.LocalPlayer;
+        Player.Character.Humanoid:GetPropertyChangedSignal'JumpPower':Connect(function()
+        Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+        end)
+        Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+    end
+    end)
+
+    local Slider1 = Section6:CreateSlider("Jump Power", 0,75,50,true, function(v)
+        _G.JumpPower = v
+    end)
+
+    local Toggle6 = Section6:CreateToggle("Noclip", nil, function(v) 
+        _G.Noclip = v
+        
+        local function Noclip()
+        if game.Players.LocalPlayer.Character ~= nil and _G.Noclip == true then
+        for _, selfChar in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+            if selfChar:IsA("BasePart") and selfChar.CanCollide == true and selfChar.Name then
+                    selfChar.CanCollide = false
+                end
+            end
+        end
+        end
+        
+        game:GetService('RunService').Stepped:Connect(Noclip)
+        end)
+
+        Section6:CreateLabel("Fly")
+        local Toggle2 = Section6:CreateToggle("Fly (X)", nil, function(State)
+            local Flying = true
+        local Flymode = "Camera"
+        local MaxSpeed = 10 -- speed 
+        local Down = {['w'] = false, ['a'] = false, ['s'] = false, ['d'] = false, ['q'] = false, ['e'] = false}
+        local KD = game.Players.LocalPlayer:GetMouse().KeyDown
+        local KU = game.Players.LocalPlayer:GetMouse().KeyUp
+        KD:Connect(function(K)
+            if K == "w" or K == "a" or K == "s" or K == "d" or K == "q" or K == "e" then 
+                Down[K] = true 
+                print(Down[K])
+            end
+        end)
+        
+        KU:Connect(function(K)
+            if K == "w" or K == "a" or K == "s" or K == "d" or K == "q" or K == "e" then 
+                Down[K] = false 
+            elseif K == "x" then 
+                Flying = not Flying 
+                EnableFly()
+            end
+        end)
+        
+        if workspace:FindFirstChild("CenterOfGravitationalForce") then 
+            Flying = false 
+            workspace:FindFirstChild("CenterOfGravitationalForce"):Destroy()
+        end
+        
+        local Flyanimation = Instance.new('Animation', game.Workspace)
+        Flyanimation.AnimationId = 'rbxassetid://3541044388'
+        local Idleanimation = Instance.new('Animation', game.Workspace)
+        Idleanimation.AnimationId = 'rbxassetid://3541114300'
+        local HeroIdle = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Idleanimation)
+        local HeroFly = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Flyanimation)
+        
+        local Inc = 0.1
+        
+        function EnableFly()
+            local Speed = 0.5
+            local Part = Instance.new("Part")
+            Part.Parent = workspace
+            Part.Size = Vector3.new(5,5,5)
+            Part.Transparency = 1
+            Part.CanCollide = false 
+            Part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+            Part.Anchored = true
+            Part.Name = "CenterOfGravitationalForce"
+            
+            local Att1 = Instance.new("Attachment")
+            Att1.Name = "Att1"
+            Att1.Visible = false 
+            Att1.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+            
+            local Att2 = Instance.new("Attachment")
+            Att2.Name = "Att2"
+            Att2.Visible = false 
+            Att2.Parent = Part
+            
+            local AlignPos = Instance.new("AlignPosition")
+            local AlignGyro = Instance.new("AlignOrientation")
+            
+            AlignPos.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+            AlignPos.Attachment0 = Att1
+            AlignPos.MaxForce = math.huge
+            AlignPos.MaxVelocity = math.huge
+            AlignPos.Mode = Enum.PositionAlignmentMode.TwoAttachment
+            AlignPos.Attachment1 = Att2
+            AlignPos.RigidityEnabled = false 
+            
+            AlignGyro.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+            AlignGyro.Mode = Enum.OrientationAlignmentMode.OneAttachment
+            AlignGyro.CFrame = workspace.CurrentCamera.CFrame
+            AlignGyro.MaxTorque = math.huge
+            AlignGyro.Attachment0 = Att1
+            AlignGyro.RigidityEnabled = false
+            
+            repeat wait() 
+                game.Players.LocalPlayer.Character.Humanoid.PlatformStand = true
+                if Down["w"] then 
+                    HeroFly:Play()
+                    HeroIdle:Stop()
+                    Part.CFrame = Part.CFrame + workspace.CurrentCamera.CFrame.lookVector * Speed
+                    Speed = Speed + Inc
+                end
+                if Down["s"] then 
+                    HeroFly:Play()
+                    HeroIdle:Stop()
+                    Part.CFrame = Part.CFrame - workspace.CurrentCamera.CFrame.lookVector * Speed
+                    Speed = Speed + Inc
+                end
+                if Down["q"] then 
+                    Part.CFrame = Part.CFrame * CFrame.new(0, Speed, 0)
+                end 
+                if Down["e"] then 
+                    Part.CFrame = Part.CFrame * CFrame.new(0, -Speed, 0)
+                end
+                if Speed > MaxSpeed then 
+                    Speed = MaxSpeed
+                end
+                if not Down["w"] and not Down["s"] then 
+                    HeroFly:Stop()
+                    HeroIdle:Play()
+                end
+                if Down["w"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(-math.rad(Speed*4), 0 ,0)
+                elseif Down["s"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(math.rad(Speed*4), 0 ,0)
+                elseif Down["q"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(math.rad(Speed*7), 0 ,0)
+                elseif Down["e"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(-math.rad(Speed*7), 0 ,0)
+                elseif Down["a"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(0, math.rad(Speed*50) ,0)
+                elseif Down["d"] then 
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame * CFrame.Angles(0, -math.rad(Speed*50) ,0)
+                else
+                    AlignGyro.CFrame = workspace.CurrentCamera.CFrame
+                end
+            until Flying == false
+            game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+            AlignGyro:Destroy()
+            AlignPos:Destroy()
+            Part:Destroy()
+            HeroIdle:Stop()
+            HeroFly:Stop()
+        end
+        EnableFly()
+        end)
+
+
+
+
+
+
+        
+        -->> Visuals
+local Label1 = Section2:CreateLabel("Player Esps")
+local Toggle2 = Section2:CreateToggle("Toggle Esp", ESPSettings.PlayerESP.Enabled, function(V)
+    ESPSettings.PlayerESP.Enabled = V
+
+    ESPFramework.Color = ESPSettings.ESPColor
+    ESPFramework.ToolColor = ESPSettings.ToolColor
+    ESPFramework.Tracers = ESPSettings.PlayerESP.TracersOn
+    ESPFramework.Names = ESPSettings.PlayerESP.NamesOn
+    ESPFramework.Health = ESPSettings.PlayerESP.HealthOn
+    ESPFramework.Distance = ESPSettings.PlayerESP.DistanceOn
+    ESPFramework.Tool = ESPSettings.PlayerESP.ToolOn
+    ESPFramework.Boxes = ESPSettings.PlayerESP.BoxesOn
+    ESPFramework.FaceCamera = ESPSettings.PlayerESP.FaceCamOn
+    ESPFramework:Toggle(ESPSettings.PlayerESP.Enabled)
+end, "PlayerESPsToggle")
+
+
+
+local Toggle2 = Section2:CreateToggle("Boxes", ESPSettings.PlayerESP.BoxesOn, function(V)
+    ESPSettings.PlayerESP.BoxesOn = V
+    ESPFramework.Boxes = ESPSettings.PlayerESP.BoxesOn
+end)
+
+local Toggle2 = Section2:CreateToggle("Tracers", ESPSettings.PlayerESP.TracersOn, function(V)
+    ESPSettings.PlayerESP.TracersOn = V
+    ESPFramework.Tracers = ESPSettings.PlayerESP.TracersOn
+end)
+
+local Toggle2 = Section2:CreateToggle("Name", ESPSettings.PlayerESP.NamesOn, function(V)
+    ESPSettings.PlayerESP.NamesOn = V
+    ESPFramework.Names = ESPSettings.PlayerESP.NamesOn
+end)
+
+local Toggle2 = Section2:CreateToggle("Health", ESPSettings.PlayerESP.HealthOn, function(V)
+    ESPSettings.PlayerESP.HealthOn = V
+    ESPFramework.Health = ESPSettings.PlayerESP.HealthOn
+end)
+
+local Toggle2 = Section2:CreateToggle("Distance", ESPSettings.PlayerESP.DistanceOn, function(V)
+    ESPSettings.PlayerESP.DistanceOn = V
+    ESPFramework.Distance = ESPSettings.PlayerESP.DistanceOn
+end)
+
+
+
+-->> End visuals
+
+
+
+
+
+local Slider1 = Section7:CreateSlider("Camera Max Zoom", 120,1000,nil,false, function(v)
+    game.Players.LocalPlayer.CameraMaxZoomDistance = v
+end)
+
+local Slider1 = Section7:CreateSlider("Full bright", 0,5,nil,false, function(v)
+    game:GetService("Lighting").ExposureCompensation = v
+end)
+local Colorpicker2 = Section7:CreateColorpicker("Ambient Colour", function(v)
+    game:GetService("Lighting").OutdoorAmbient = v
+end)
+
+local Toggle6 = Section7:CreateToggle("Delete Textures [more fps]", nil, function(v)
+for _,v in pairs(workspace:GetDescendants()) do
+    if v.ClassName == "Part" or v.ClassName == "SpawnLocation" or v.ClassName == "WedgePart" or v.ClassName == "Terrain" or v.ClassName == "MeshPart" then
+        v.Material = "Plastic"
+    end
+end
+
+for i, v in pairs(workspace:GetDescendants()) do
+    if v.ClassName == "Decal" or v.ClassName == "Texture" then
+        v:Destroy()
+    end
+end
+end)
+
